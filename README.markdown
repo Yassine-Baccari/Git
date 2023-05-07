@@ -23,16 +23,12 @@ other people who download the project.
     $ git config --global user.name "Your Name"
     $ git config --global user.email your.email@example.com
 
-As a helpful step, you may want to set Git to use your favourite editor
-
-    $ git config --global core.editor emacs
-
 Starting your journey
 ---------------------
 
 First, clone this repository:
 
-    $ git clone https://github.com/kuahyeow/git-workshop.git
+    $ git clone https://github.com/Yassine-Baccari/Git.git
 
 You may want to fork (create your own copy of) the project on github and
 clone from your own repo. You can find the fork button at the top right of
@@ -41,7 +37,7 @@ the screen on a github repository, or more help about doing that [here](https://
 Once you have cloned your repository, you should now see a directory
 called `git-workshop`. This is your `working directory`
 
-    $ cd git-workshop
+    $ cd Git
     $ ls
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Help-browser.svg/20px-Help-browser.svg.png)
@@ -392,108 +388,3 @@ Stuck? Ask for help from the workshop staff
 Congratulations. You have fixed the conflict. All is good in the world.
 
 Fin
----
-
-You have learnt :
-
-1.  Clone a repository
-2.  Commit files
-3.  Check status
-4.  Check diff
-5.  Undoing changes
-6.  Branching and merging
-7.  Fixing conflicts
-
-
-Now You can choose two tracks, either Part II (below) which covers time travel and
-mangling your git history, or Part III (even below-er) which covers Github pull
-requests and cat gifs.
-
-Part II
-=======
-
-Check out the `revert` branch on this repository for further instructions!
-You can always get back to this version of the readme by checking out the master
-branch.
-
-Part III
-========
-
-GitHub
-------
-But, wait. There’s more. What about this distributed sharing thing with
-Git ?
-
-To be able to share, we’ll need a server to host our git repositiories.
-GitHub (<a href="https://github.com/">github.com</a>) is probably the
-easiest place to begin with.
-
-Login or sign up with GitHub
-----------------------------
-
-If you've already got an account you can skip on to creating the repo on
-github, or forking this repository and cloning it down to your local machine.
-
-Otherwise...
-
-Go <a href="https://github.com/signup">sign up for an account</a> at
-GitHub; Or login into your GitHub account if you had previously signed
-up.
-
-Hint: You may need to setup git cache your GitHub password - see
-<a href="https://help.github.com/articles/set-up-git">https://help.github.com/articles/set-up-git</a>
-
-Then come back here, we’ll wait.
-
-Create your first GitHub repository
------------------------------------
-
-A repository (repo) is a place where you would store your code. You were
-practising on your very own repo just now in Part 1!
-
-The following <a href="https://help.github.com/articles/create-a-repo">
-tutorial</a> will show you how to create a GitHub repo - which you can
-then share with others
-
-Then come back here, we’ll wait.
-
-Fork a repo
------------
-
-Go to [this tutorial](https://help.github.com/articles/fork-a-repo)
-Then come back here, we’ll wait.
-
-Let’s collaborate !
--------------------
-
-Check out the `pull_request` branch on this repository for further instructions!
-You can always get back to this version of the readme by checking out the master branch.
-
-Fin
----
-
-You have learnt:
-
-1.  Forking a repo at GitHub
-2.  Git push
-3.  Git pull
-
-### References and Further reading
-
-I throughly recommend these resources to continue your Git practice:
-
--   <a href="http://try.github.com">http://try.github.com</a> Another
-    beginners tutorial for git
--   <a href="http://git-scm.com">http://git-scm.com</a> Official
-    website, with very useful help, book and videos
--   <a href="http://gitref.org">http://gitref.org</a>
--   <a href="http://www.kernel.org/pub/software/scm/git/docs/everyday.html">http://www.kernel.org/pub/software/scm/git/docs/everyday.html</a>
-
-Author
-------
-
-This work is licensed under the Creative Commons
-Attribution-NonCommercial-ShareAlike 3.0 License\
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</a>\
-Author: Thong Kuah\
-Contributors: Andy Newport, Nick Malcolm
